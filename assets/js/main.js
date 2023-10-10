@@ -58,33 +58,6 @@
         });
 
 
-        /* 04. HOME ARROW DOWN
-        ==================================================*/
-
-        var arrowBounce = function () {
-            var arrow = $(".arrow");
-            if (arrow.hasClass("lift")) {
-                arrow.removeClass("lift");
-            } else {
-                arrow.addClass("lift");
-            }
-        };
-
-        setInterval(arrowBounce, 800);
-
-
-        /* 05. NAVIGATION
-        ==================================================*/
-
-        $(window).on('scroll', function () {
-            if ($(window).scrollTop() > 100) {
-                $('#navigation').addClass('navigation-background');
-            } else {
-                $('#navigation').removeClass('navigation-background');
-            }
-        });
-
-
         /* 06. MOBILE NAVIGATION
         ==================================================*/
 
@@ -103,13 +76,6 @@
         /* 07. SMOTH SCROLL
         ==================================================*/
 
-        $('a.smoth-scroll').on('click', function (e) {
-            var anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top - 50
-            }, 1000);
-            e.preventDefault();
-        });
 
 
         /* 08. PORTFOLIO FILTER IMAGE
@@ -123,25 +89,6 @@
         $('.flexslider').flexslider({
             animation: "fade",
             directionNav: false
-        });
-
-
-        /* 10. SCROLL ON TOP BUTTON
-        ==================================================*/
-
-        $(window).on('scroll', function () {
-            if ($(this).scrollTop() >= 500) {
-                $('.scroll-to-top').fadeIn();
-            } else {
-                $('.scroll-to-top').fadeOut();
-            }
-        });
-
-        $('.scroll-to-top').on('click', function () {
-            $('html, body').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
         });
 
 
