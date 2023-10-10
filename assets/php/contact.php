@@ -16,7 +16,7 @@
         }
 
         // Change your email hosting in hire
-        $recipient = "vavelo@vavelo.dx.am"; 
+        $recipient = "matthewdcarlson.programmer@gmail.com"; 
 
         // Set the email subject.
         $subject = "New contact from $name";
