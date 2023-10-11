@@ -1,0 +1,228 @@
+{"frames": [
+
+{
+	"filename": "Nurse_Ghost_Alert_back1.png",
+	"frame": {"x":0,"y":0,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_back2.png",
+	"frame": {"x":100,"y":0,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_front.png",
+	"frame": {"x":0,"y":140,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_front2.png",
+	"frame": {"x":100,"y":140,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_left1.png",
+	"frame": {"x":0,"y":280,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_left2.png",
+	"frame": {"x":100,"y":280,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_right1.png",
+	"frame": {"x":0,"y":420,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Alert_right2.png",
+	"frame": {"x":100,"y":420,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_back1.png",
+	"frame": {"x":0,"y":560,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_back2.png",
+	"frame": {"x":100,"y":560,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_back3.png",
+	"frame": {"x":0,"y":700,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_back4.png",
+	"frame": {"x":100,"y":700,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_front1.png",
+	"frame": {"x":0,"y":840,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_front2.png",
+	"frame": {"x":100,"y":840,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_front3.png",
+	"frame": {"x":0,"y":980,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_front4.png",
+	"frame": {"x":100,"y":980,"w":100,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":140},
+	"sourceSize": {"w":100,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_left1.png",
+	"frame": {"x":0,"y":1120,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_left2.png",
+	"frame": {"x":100,"y":1120,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_left3.png",
+	"frame": {"x":0,"y":1220,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_left4.png",
+	"frame": {"x":100,"y":1220,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_right1.png",
+	"frame": {"x":0,"y":1320,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_right2.png",
+	"frame": {"x":100,"y":1320,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_right3.png",
+	"frame": {"x":0,"y":1420,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Nurse_Ghost_Walk_right4.png",
+	"frame": {"x":100,"y":1420,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ghost_nurse_spritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":200,"h":1520},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0fbeb811be4a7b66e66f69a54b73d1ba:005e21c34cccc2cc32c27eca8dadbaf7:9ae3787b9b7958210c203a2dbf3b45cd$"
+}
+}

@@ -633,22 +633,38 @@
                         <br class="all mix">
                         <h3>Quest Hall </h3>
                         <div class = "tab">
-                            <p> As a 2-week assignment our group developed a game based on the adjectives "elude" and "creep". We decided to make a very basic dungeon crawler with the place being one of the haunted building on our campus, and the character as a RPI student.
+                            <p> As a 2-week assignment our group developed a game based on the adjectives "elude" and "creep". We decided to make a very basic dungeon crawler with the place being one of the haunted building on our campus, and the character as a RPI student. This is the first game I ever worked on, and helped solidify my love for game development. The game is using the HaxeFlixel engine, and was a way to learn how to work with 2D engines. The character, and enemies (police and ghosts) are made up of 2D sprites.
                                        </p>
-                                       <p>
-                                        Using Haxeflixel, we were able to create a mechanically sound character, as well as having the character and enemies (police and ghosts) be made as 2D sprites.
-                                        </p>
-                                        <br> 
+                                      Contribution: 
+                                <ul>
+                                    <li>Managed the walking and crouching mechanics</li>
+                                    <li>Synchronized the audio files based on events in-game</li>
+                                    <li>Setup the level design</li>
+                                    <li>Fixed detection cone, so as not to be detected through a wall</li>
+                                    <li>Pieced together various components created by other team members such as the art, and AI movements</li>
+                                    
+                                </ul>
                         </div>
                                         <p>
                                             Team: Matthew Carlson, Matthew Yoder, CJ Legato, Sara Bruton, and Erik Gunderson
                                         </p>
                                         <a href="https://bitbucket.org/eludecreep/gd1-project-1/downloads/">    <img src="assets/img/portfolio/GitHub_Logo.png" align = "right" alt="Work 1" style=" width: 90px;"></a>
                                         <br> 
+                        <br>
                                     <center>
-                                        <video width="525" height="393" controls>
+                                        <!--<video width="525" height="393" controls>
                                                     <source src="assets/img/portfolio/QHall.mp4" type="video/mp4">
-                                        </video>
+                                        </video>-->
+                                        <div><iframe id="iFrame" height = "0" width = "0"></iframe></div>
+                                        <div><h3 id="iRules" style= "visibility: hidden;">wasd or arrow keys for movement
+                                            <br>
+                                            e to interact
+                                            <br>
+                                            ctrl to crouch</h3>
+                                            <br>
+                                        </div>
+                                        <button data-url="assets/QuestHall/html5/bin/index.html" data-width = "900" data-height="900" onClick="visible('iRules')"> Start Quest Hall </button>
+                                        <button data-url="" data-width="0" data-height="0" onClick="invisible('iRules')"> End Game </button>
                                     </center>
                         
                     </div>
@@ -667,6 +683,7 @@
                                         </p>
                                         <a href="https://github.com/lessuknow/GD1Assignment2">  <img src="assets/img/portfolio/GitHub_Logo.png" class="img-responsive" align = "right" alt="Work 1" style=" width: 90px;"></a>
                                         <br>
+                        <br>
 
                                         <div class="Game2 grid mix col-md-4 col-sm-6 col-xs-12">
                             <a href="assets/img/portfolio/portfolio-1.jpg" class="image-popup">
@@ -766,7 +783,28 @@
     </footer>
     <!-- END FOOTER -->
 
-
+<script>
+    function visible(id) {
+        var element = document.getElementById(id);
+        element.style.visibility = "visible";
+    }
+    
+    function invisible(id){
+        var element = document.getElementById(id);
+        element.style.visibility = "hidden";
+    }
+    
+  /* it is important you put the script part after the HTML with the buttons */
+  Array.prototype.forEach.call(document.querySelectorAll('[data-url]'), function(elem) {
+    elem.addEventListener('click', function(e) {
+      iFrame.src = this.dataset.url
+        iFrame.width = this.dataset.width
+        iFrame.height = this.dataset.height
+        
+        iRules.style.visibility = this.dataset.visibility
+    })
+  })
+</script>
 
 
     <!-- JS PLUGIN -->

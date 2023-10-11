@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="17" height="31" tilewidth="100" tileheight="100" nextobjectid="19">
+ <tileset firstgid="1" name="Inside" tilewidth="100" tileheight="100" tilecount="28" columns="7">
+  <image source="Tiles_Inside.png" width="700" height="400"/>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="1" x="29" y="65" width="42" height="35"/>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index">
+    <object id="1" x="28.3636" y="0.181818" width="71.4545" height="99.6364"/>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <objectgroup draworder="index">
+    <object id="4" x="0.363636" y="0" width="71.4545" height="99.8182"/>
+   </objectgroup>
+  </tile>
+  <tile id="10">
+   <objectgroup draworder="index">
+    <object id="1" x="28" y="-1" width="42" height="99"/>
+   </objectgroup>
+  </tile>
+  <tile id="14">
+   <objectgroup draworder="index">
+    <object id="1" x="27.6364" y="0" width="72" height="99.8182"/>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <objectgroup draworder="index">
+    <object id="1" x="0.181818" y="0.181818" width="71.6364" height="99.8182"/>
+   </objectgroup>
+  </tile>
+  <tile id="17">
+   <objectgroup draworder="index">
+    <object id="1" x="28" y="3" width="43" height="97"/>
+   </objectgroup>
+  </tile>
+  <tile id="21">
+   <objectgroup draworder="index">
+    <object id="1" x="27.6364" y="-0.727273" width="72.5455" height="100.545"/>
+   </objectgroup>
+  </tile>
+  <tile id="23">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0.181818" width="71.6364" height="99.8182"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="background" width="17" height="31">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="Inside"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="walls" width="17" height="31">
+  <properties>
+   <property name="tileset" value="Inside"/>
+  </properties>
+  <data encoding="csv">
+8,25,25,25,25,25,25,25,25,25,9,25,19,25,25,25,10,
+11,6,0,0,0,0,0,0,0,0,11,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,20,11,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,22,25,25,0,25,25,17,
+15,25,0,26,10,0,0,0,0,0,0,0,0,0,0,13,11,
+11,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,11,
+15,25,0,25,16,25,25,25,25,23,23,23,23,23,23,23,17,
+11,0,0,0,11,6,0,0,0,0,0,0,0,0,0,20,11,
+11,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,22,25,25,0,25,25,9,25,26,25,0,25,17,
+11,0,0,0,0,0,0,0,0,0,11,0,0,0,0,13,11,
+11,0,0,0,0,0,0,0,0,0,11,0,0,0,0,20,11,
+11,0,0,0,0,0,0,0,0,0,11,6,0,0,0,0,11,
+15,25,25,25,25,25,10,0,0,0,15,25,25,25,0,25,17,
+11,6,13,0,0,0,11,0,0,0,11,0,0,0,0,20,11,
+11,0,0,0,0,0,22,23,0,23,24,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,11,
+11,0,0,0,0,0,11,0,0,0,11,0,0,0,0,0,11,
+15,26,25,0,25,25,24,6,13,20,22,25,25,23,25,25,17,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,
+22,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,24
+</data>
+ </layer>
+ <layer name="Tables" width="17" height="31">
+  <properties>
+   <property name="istable" value="true"/>
+   <property name="tileset" value="Inside"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12,0,0,0,0,12,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,12,0,0,12,0,0,12,0,0,12,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,12,0,0,12,0,0,12,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="DetailsUnder" width="17" height="31">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="Inside"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="DetailsOver" width="17" height="31">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="over" value="true"/>
+   <property name="tileset" value="Inside"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,7,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,
+0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,
+0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,14,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,14,0,0,0,0,0,14,0,7,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,14,7,0,0,0,0,0,0,0,0,7,0,14,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,14,0,0,0,0,0,0,0,0,0,0,0,14,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="TextTrigger">
+  <object id="7" name="texttrigger" type="texttrigger" x="1300" y="400" width="100" height="100">
+   <properties>
+    <property name="description" value="*RING* Hey its me, Ben Chang! I'm trapped in the basement please help!"/>
+    <property name="ischang" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="player_start">
+  <object id="2" name="start" type="player_start" x="1300" y="2700" width="100" height="100"/>
+ </objectgroup>
+ <objectgroup name="Ghosts">
+  <object id="8" name="ghost" type="mguard_start" x="751.333" y="2551.33">
+   <properties>
+    <property name="mode" value="loop"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="200"/>
+   </properties>
+   <polyline points="-1.33333,50.6667 0,398 200.667,400.667 200,48.6667"/>
+  </object>
+  <object id="9" name="ghost" type="mguard_start" x="251.333" y="2034">
+   <properties>
+    <property name="mode" value="loop"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="120"/>
+   </properties>
+   <polyline points="292.667,19.6667 -100,20 -99.333,320.667 300,318.667"/>
+  </object>
+  <object id="12" name="ghost" type="mguard_start" x="1427" y="2100">
+   <properties>
+    <property name="mode" value="loop"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="200"/>
+   </properties>
+   <polyline points="-280.333,-151.333 -281,250 24.667,250.667 23,-149.333"/>
+  </object>
+  <object id="13" name="ghost" type="mguard_start" x="1050" y="1220">
+   <properties>
+    <property name="mode" value="loop"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="200"/>
+   </properties>
+   <polyline points="-400.333,-67.3333 -404,129 400.667,134.667 401,-68.3333"/>
+  </object>
+  <object id="16" name="ghost" type="mguard_start" x="930.667" y="1876">
+   <properties>
+    <property name="mode" value="yoyo"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="100"/>
+   </properties>
+   <polyline points="-286.667,-229.333 -78.6663,-226.667 -79.3333,172.334"/>
+  </object>
+  <object id="17" name="ghost" type="mguard_start" x="328" y="1428">
+   <properties>
+    <property name="mode" value="yoyo"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="100"/>
+   </properties>
+   <polyline points="-78.6663,-226.667 -79.3333,172.334"/>
+  </object>
+  <object id="18" name="ghost" type="mguard_start" x="910" y="344">
+   <properties>
+    <property name="mode" value="yoyo"/>
+    <property name="nurse" value="false"/>
+    <property name="speed" value="250"/>
+   </properties>
+   <polyline points="-553.333,4.667 -254,4 -256.333,410.667 138,410.667"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="checkpoints">
+  <object id="3" name="checkpoint" type="checkpoint" x="100" y="2500" width="100" height="100">
+   <properties>
+    <property name="description" value="Oh, a Game Jam poster. Looks like the next one is coming up soon. That’s a way to test how well coffee keeps you up."/>
+   </properties>
+  </object>
+  <object id="4" name="checkpoint" type="checkpoint" x="1200" y="1501" width="100" height="100">
+   <properties>
+    <property name="description" value="Huh, a poster for Genericon? Isn’t it a little too early for that? Maybe this year they’ll have some more interesting games."/>
+   </properties>
+  </object>
+  <object id="5" name="checkpoint" type="checkpoint" x="300.25" y="701.25" width="100" height="100">
+   <properties>
+    <property name="description" value="“Diamond Fish Tournament this Friday”, huh? They’re going to run out of fish ideas in a few years."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="LoadLevel">
+  <object id="6" name="loadlevel" type="load_level" x="1200" y="100" width="100" height="100">
+   <properties>
+    <property name="Description" value="ADD A DESCRIPTION YOU DINGUS"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
