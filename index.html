@@ -665,6 +665,7 @@
                                         </div>
                                         <button data-url="assets/QuestHall/html5/bin/index.html" data-width = "900" data-height="900" onClick="visible('iRules')"> Start Quest Hall </button>
                                         <button data-url="" data-width="0" data-height="0" onClick="invisible('iRules')"> End Game </button>
+                                        <br>
                                     </center>
                         
                     </div>
@@ -684,6 +685,18 @@
                                         <a href="https://github.com/lessuknow/GD1Assignment2">  <img src="assets/img/portfolio/GitHub_Logo.png" class="img-responsive" align = "right" alt="Work 1" style=" width: 90px;"></a>
                                         <br>
                         <br>
+                        <center>
+                                        <!--<video width="525" height="393" controls>
+                                                    <source src="assets/img/portfolio/QHall.mp4" type="video/mp4">
+                                        </video>-->
+                                        <div><iframe id="iFrameHansom" height = "0" width = "0"></iframe></div>
+                                        <div><h3 id="iHansom" style= "visibility: hidden;">Tap or Click to interact</h3>
+                                            <br>
+                                        </div>
+                                        <button data-url2="assets/MysteryOfTheHansomCab/index.html" data-width = "728" data-height="1305" onClick="visible('iHansom')"> Start Mystery </button>
+                                        <button data-url2="" data-width="0" data-height="0" onClick="invisible('iHansom')"> End Game </button>
+                                        <br>
+                                    </center>
 
                                         <div class="Game2 grid mix col-md-4 col-sm-6 col-xs-12">
                             <a href="assets/img/portfolio/portfolio-1.jpg" class="image-popup">
@@ -800,8 +813,14 @@
       iFrame.src = this.dataset.url
         iFrame.width = this.dataset.width
         iFrame.height = this.dataset.height
-        
-        iRules.style.visibility = this.dataset.visibility
+    })
+  })
+    
+  Array.prototype.forEach.call(document.querySelectorAll('[data-url2]'), function(elem) {
+    elem.addEventListener('click', function(e) {
+        iFrameHansom.src = this.dataset.url2
+        iFrameHansom.width = this.dataset.width
+        iFrameHansom.height = this.dataset.height
     })
   })
 </script>
